@@ -44,7 +44,6 @@
                 <ul>
                     <li><a href="#hero" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
-                    <li><a href="#sandbox">Sandbox</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#experience">Experience</a></li>
                     <li><a href="#projects">Projects</a></li>
@@ -176,76 +175,7 @@
             </div>
         </section>
 
-        <!-- 2.5. Agent Sandbox Section -->
-        <section id="sandbox">
-            <div class="container">
-                <div class="section-header reveal">
-                    <h2 class="section-title">Agentic Sandbox</h2>
-                    <p class="section-subtitle">Interact with simulated outputs of distributed AI agents, RAG document search pipelines, and MCP Client tool calls.</p>
-                </div>
-                
-                <div class="sandbox-grid">
-                    <!-- Controls Panel -->
-                    <div class="sandbox-controls glass-card reveal-left">
-                        <h3>Simulate Agent System</h3>
-                        <p class="controls-desc">Trigger interactive runs to see how your backend orchestrates model routing and tool calling logic under the hood.</p>
-                        
-                        <div class="control-actions">
-                            <button class="sandbox-btn active-swarm" id="btn-swarm">
-                                <i class="fa-solid fa-network-wired"></i>
-                                <div class="btn-text">
-                                    <span class="title">Run Agentic Swarm</span>
-                                    <span class="desc">Distribute Country → Business scraping</span>
-                                </div>
-                            </button>
-                            
-                            <button class="sandbox-btn active-rag" id="btn-rag">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                                <div class="btn-text">
-                                    <span class="title">Execute RAG Search</span>
-                                    <span class="desc">Vector DB query & retrieval context</span>
-                                </div>
-                            </button>
-                            
-                            <button class="sandbox-btn active-mcp" id="btn-mcp">
-                                <i class="fa-solid fa-server"></i>
-                                <div class="btn-text">
-                                    <span class="title">Call MCP Client Tool</span>
-                                    <span class="desc">Autonomously call stock & math tools</span>
-                                </div>
-                            </button>
-                        </div>
-                        
-                        <div class="active-task-display">
-                            <span class="label">System State</span>
-                            <div class="status-indicator">
-                                <span class="dot idle" id="system-status-dot"></span>
-                                <span class="text" id="system-status-text">System Idle</span>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Terminal Panel -->
-                    <div class="sandbox-terminal glass-card reveal-right">
-                        <div class="terminal-header">
-                            <div class="terminal-buttons">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </div>
-                            <div class="terminal-title"><i class="fa-solid fa-terminal"></i> agent_runtime.log</div>
-                            <div class="terminal-actions">
-                                <button class="terminal-clear-btn" id="btn-clear-terminal" title="Clear Logs"><i class="fa-solid fa-trash-can"></i></button>
-                            </div>
-                        </div>
-                        <div class="terminal-body" id="terminal-output-container">
-                            <div class="terminal-line system-prompt"># Akshat Dwivedi AI Agent Environment v1.0.4</div>
-                            <div class="terminal-line system-prompt"># Select a simulator button to launch agent task scripts.</div>
-                            <div class="terminal-line cursor-line">> <span class="blink-cursor">_</span></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
 
         <!-- 3. Skills Section -->
         <section id="skills">
